@@ -152,7 +152,7 @@ erpnext.PointOfSale.Controller = class {
 			},
 			() => this.make_new_invoice(),
 			() => frappe.dom.unfreeze(),
-			() => this.page.set_title(__('Point of Sale Beta')),
+			() => this.page.set_title(__('Point of Sale')),
 		]);
 	}
 
